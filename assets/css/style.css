@@ -24,6 +24,7 @@
 }
 
 #founder {
+    background-color: #FBFBFB;
     padding: 100px 0 110px 0;
 }
 
@@ -31,4 +32,8 @@
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 100px;
+}
+
+#testimonial {
+    padding: 100px 0 110px 0;
 }
