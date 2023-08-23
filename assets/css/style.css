@@ -37,3 +37,13 @@
 #testimonial {
     padding: 100px 0 110px 0;
 }
+
+#testimonial h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+#contact {
+    padding: 100px 0 110px 0;
+}
