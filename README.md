@@ -10,5 +10,5 @@ Anggota
 
 ## Demo
 
-[Klik disini](https://ahay.my.id/fashion-msib)
+[Klik disini](https://ahay.my.id/msib/fashion/)
 
