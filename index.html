@@ -7,91 +7,257 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-    <section id="navbar">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-              <a class="navbar-brand me-5" href="index.html">NorthStar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="aboutus.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact Us</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-        </nav>
-    </section>
-
-    <div class="container">
-      <footer class="py-5">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
-            <h5>COMPANY INFO</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Latest Posts</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Shop</a></li>
+    <style>
+      .background-image-div {
+        background-image: url("assets/img/hero.png");
+        background-size: cover;
+        background-position: center;
+        min-height: 670px;
+      }
+  
+      .container-fluid {
+        padding: 0px;
+      }
+  
+      .shadow-text {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  
+  <body>
+  
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand me-5" href="index.html">NorthStar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
             </ul>
-          </div>
-    
-          <div class="col-6 col-md-2 mb-3">
-            <h5>HELP LINKS</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tracking</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Order Status</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Delivery</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Shipping Info</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            </ul>
-          </div>
-    
-          <div class="col-6 col-md-2 mb-3">
-            <h5>USEFUL LINKS</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Special Offers</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gift Cards</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Advertising</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Term of Use</a></li>
-            </ul>
-          </div>
-    
-          <div class="col-md-5 offset-md-1 mb-3">
-            <form>
-              <h5>GET IN THE KNOW</h5>
-              <!-- <p>Monthly digest of what's new and exciting from us.</p> -->
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Enter Email</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Enter Email">
-                <button class="btn btn-primary" type="button">Subscribe</button>
-              </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
-    
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p>&copy; 2023 Tim Roihan-Rizky. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-          </ul>
+    </nav>
+    </header>
+  
+    <main>
+  
+      <!-- Hero Section -->
+      <div class="background-image-div d-flex align-items-center justify-content-end" style="padding-right: 7em;">
+        <div class="d-flex flex-column me-5" style="width: 300px;">
+          <h1 class="fw-bold text-white shadow-text text-center mb-4">STYLIST PICKS BEAT THE HEAT</h1>
+          <button class="btn border-4 p-2 ps-4 border-white text-white fw-semibold rounded-0 mx-auto">SHOP NOW</button>
         </div>
-      </footer>
-    </div>
+      </div>
+      <!-- End of Hero Section -->
+  
+      <!-- NEW ARRIVALS Section -->
+      <div class="d-flex flex-column align-items-center" style="margin-top: 2.5em;">
+        <h2 class="fw-semibold mb-3">Discover NEW Arrivals</h2>
+        <p class="mb-5">Recently added shirts!</p>
+        <div class="container d-flex flex-wrap mt-3 justify-content-center gap-4">
+          <div class="d-flex flex-column text-center gap-2" style="width: 306px;">
+            <img src="assets/img/arrivals-1.png" alt="Item 1">
+            <p class="fw-bold mt-2" style="margin-block-end: 0px;">Plain White Shirt</p>
+            <p class="text-primary">$29.00</p>
+          </div>
+          <div class="d-flex flex-column text-center gap-2" style="width: 306px;">
+            <img src="assets/img/arrivals-2.png" alt="Item 1">
+            <p class="fw-bold mt-2" style="margin-block-end: 0px;">Denim Jacket</p>
+            <p class="text-primary">$69.00</p>
+          </div>
+          <div class="d-flex flex-column text-center gap-2" style="width: 306px;">
+            <img src="assets/img/arrivals-3.png" alt="Item 1">
+            <p class="fw-bold mt-2" style="margin-block-end: 0px;">Black Polo Shirt</p>
+            <p class="text-primary">$49.00</p>
+          </div>
+          <div class="d-flex flex-column text-center gap-2" style="width: 306px;">
+            <img src="assets/img/arrivals-4.png" alt="Item 1">
+            <p class="fw-bold mt-2" style="margin-block-end: 0px;">Blue Sweatshirt</p>
+            <p class="text-primary">$79.00</p>
+          </div>
+          <div class="d-flex flex-column text-center gap-2" style="width: 306px;">
+            <img src="assets/img/arrivals-5.png" alt="Item 1">
+            <p class="fw-bold mt-2" style="margin-block-end: 0px;">Blue Plain Shirt</p>
+            <p class="text-primary">$49.00</p>
+          </div>
+          <div class="d-flex flex-column text-center gap-2" style="width: 306px;">
+            <img src="assets/img/arrivals-6.png" alt="Item 1">
+            <p class="fw-bold mt-2" style="margin-block-end: 0px;">Dark Blue Shirt</p>
+            <p class="text-primary">$89.00</p>
+          </div>
+          <div class="d-flex flex-column text-center gap-2" style="width: 306px;">
+            <img src="assets/img/arrivals-7.png" alt="Item 1">
+            <p class="fw-bold mt-2" style="margin-block-end: 0px;">Outcast T Shirt</p>
+            <p class="text-primary">$19.00</p>
+          </div>
+          <div class="d-flex flex-column text-center gap-2" style="width: 306px;">
+            <img src="assets/img/arrivals-8.png" alt="Item 1">
+            <p class="fw-bold mt-2" style="margin-block-end: 0px;">Polo Plain Shirt</p>
+            <p class="text-primary">$29.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- End of NEW ARRIVALS Section -->
+  
+      <!-- Services Section -->
+      <div class="container align-items-center justify-content-center d-flex flex-wrap gap-5"
+        style="margin-top: 6em; margin-bottom: 8em;">
+        <div class="d-flex gap-4" style="width: 250px;">
+          <div style="max-width: 30px;">
+            <img src="assets/img/service-1.png" alt="Service 1">
+          </div>
+          <div class="d-flex flex-column gap-1">
+            <p class="fw-bolder mb-2" style="margin-block-end: 0px;">FREE SHIPPING</p>
+            <p style="line-height: 1.3em;">Enjoy free shipping on all orders above $100</p>
+          </div>
+        </div>
+        <div class="d-flex gap-4" style="width: 250px;">
+          <div style="max-width: 30px;">
+            <img src="assets/img/service-2.png" alt="Service 1">
+          </div>
+          <div class="d-flex flex-column gap-1">
+            <p class="fw-bolder mb-2" style="margin-block-end: 0px;">SUPPORT 24/7</p>
+            <p style="line-height: 1.3em;">Our support team is there to help you for queries</p>
+          </div>
+        </div>
+        <div class="d-flex gap-4" style="width: 250px;">
+          <div style="max-width: 30px;">
+            <img src="assets/img/service-3.png" alt="Service 1">
+          </div>
+          <div class="d-flex flex-column gap-1">
+            <p class="fw-bolder mb-2" style="margin-block-end: 0px;">30 DAYS RETURN</p>
+            <p style="line-height: 1.3em;">Simply return it within 30 days for an exchange.</p>
+          </div>
+        </div>
+        <div class="d-flex gap-4" style="width: 250px;">
+          <div style="max-width: 30px;">
+            <img src="assets/img/service-4.png" alt="Service 1">
+          </div>
+          <div class="d-flex flex-column gap-1">
+            <p class="fw-bolder mb-2" style="margin-block-end: 0px;">Free Shipping</p>
+            <p style="line-height: 1.3em;">Enjoy free shipping on all orders above $100</p>
+          </div>
+        </div>
+      </div>
+      <!-- End of Services Section -->
+  
+      <!-- Marketing Section -->
+      <div class="container d-flex gap-3" style=" margin-bottom: 5em;">
+        <div class="bg-black d-flex flex-column justify-content-center align-items-center gap-3"
+          style="height: 429px; width: 60%;">
+          <h1 class="text-white fw-normal">PEACE OF MIND</h1>
+          <p class="text-white text-center" style="width: 56.78%;">A one-stop platform for all your fashion needs,
+            hassle-free. Buy with a peace of mind.</p>
+          <button class="py-3 px-5 bg-white text-primary">BUY NOW</button>
+        </div>
+        <div class="bg-black d-flex flex-column justify-content-center align-items-center gap-3"
+          style="height: 429px; width: 40%;">
+          <h1 class="text-white fw-normal text-center">BUY 2 GET 1 FREE</h1>
+          <p class="text-white text-center" style="width: 80.40%;">End of season sale. Buy any 2 items of your choice and
+            get 1 free.</p>
+          <button class="py-3 px-5 bg-white text-primary">BUY NOW</button>
+        </div>
+      </div>
+      <!-- End of Marketing Section -->
+  
+      <!-- Top Sellers -->
+      <div class="container text-center" style="margin-bottom: 5em;">
+        <h2 class="mb-4">Top Sellers</h2>
+        <p class="mb-5">Browse our top-selling products</p>
+        <div class="d-flex justify-content-evenly flex-wrap gap-3">
+          <div class="d-flex flex-column gap-3" style="width: 295px;">
+            <img src="assets/img/sellers-1.png" alt="Top Sellers">
+            <p class="fw-bold" style="margin-block-end: 0px;">Gray Polo Shirt</p>
+            <p class="text-primary" style="margin: -0.6em;">$49.00</p>
+          </div>
+          <div class="d-flex flex-column gap-3" style="width: 295px;">
+            <img src="assets/img/sellers-2.png" alt="Top Sellers">
+            <p class="fw-bold" style="margin-block-end: 0px;">Red Shirt</p>
+            <p class="text-primary" style="margin: -0.6em;">$69.00</p>
+          </div>
+          <div class="d-flex flex-column gap-3" style="width: 295px;">
+            <img src="assets/img/sellers-3.png" alt="Top Sellers">
+            <p class="fw-bold" style="margin-block-end: 0px;">Polo White Shirt</p>
+            <p class="text-primary" style="margin: -0.6em;">$29.00</p>
+          </div>
+          <div class="d-flex flex-column gap-3" style="width: 295px;">
+            <img src="assets/img/sellers-4.png" alt="Top Sellers">
+            <p class="fw-bold" style="margin-block-end: 0px;">Pink Casual Shirt</p>
+            <p class="text-primary" style="margin: -0.6em;">$39.00</p>
+          </div>
+        </div>
+        <button class="py-3 px-5 bg-primary text-white fw-light border-0" style="margin-top: 5em;">SHOP NOW</button>
+      </div>
+      <!-- End of Top Sellers -->
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>COMPANY INFO</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Latest Posts</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Shop</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>HELP LINKS</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tracking</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Order Status</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Delivery</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Shipping Info</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>USEFUL LINKS</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Special Offers</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gift Cards</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Advertising</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Term of Use</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>GET IN THE KNOW</h5>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
+            <p>&copy; 2023 Tim Roihan-Rizky. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
+  
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
